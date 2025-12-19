@@ -8,6 +8,8 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		
 		inputNum = (long) Integer.parseInt(scanner.nextLine());
+
+		// 이거 팩토리얼 실행횟수
 		
 		if (inputNum != 0) {
 			for (int i=1;i<inputNum;i++) {
@@ -18,4 +20,5 @@ public class Main {
 		System.out.println(count);
 		System.out.println(degree);
 	}
+
 }
