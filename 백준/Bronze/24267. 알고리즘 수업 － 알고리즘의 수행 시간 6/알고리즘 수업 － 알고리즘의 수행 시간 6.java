@@ -16,9 +16,12 @@ public class Main{
                 count+=temp;
             }
         }
+
+        // for 문 2개 이상 쓰면 시간 초과 됨
         
         System.out.println(count);
         System.out.println(degree);
     }
     
+
 }
