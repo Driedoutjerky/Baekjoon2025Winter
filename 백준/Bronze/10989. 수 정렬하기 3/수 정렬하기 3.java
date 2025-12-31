@@ -24,7 +24,7 @@ public class Main{
             result[valMark[arr[j]]] = arr[j];
         }
         
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(); // 일일이 println 하는것보다 StringBuilder 쓰는게 시간적으로 더 효율적.
         String newLine = System.lineSeparator();
         for(int k=0;k<count;k++) {
             sb.append(result[k] + newLine);
@@ -34,4 +34,5 @@ public class Main{
         
         
     }
+
 }
