@@ -1,3 +1,7 @@
+/*
+* 문제 자체는 풀리긴 했는데 효율적인건 boolean[] 써서 체킹하고 넘어가는게 속도 면에선 더 빠름.
+* 그런데 이럴거면 그냥 이런 코드 통과 못시키게 해야하는거 아닌가?
+*/
 import java.io.*;
 import java.lang.*;
 import java.util.*;
@@ -64,4 +68,5 @@ public class Main{
         
         System.out.print(sb);
     }
+
 }
