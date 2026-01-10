@@ -30,6 +30,7 @@ class MyMath{
         // 원래는 주어진 숫자보다 큰 소수 중 작은 것 찾기인데.
         // 그런데 시간 초과로 인해 버려졌다가
         // 에라토스테네스의 채가 메모리 초과해버려서 다시 돌아옴.
+        // 생각해보니 루프를 다 돌 필요없이 루트 denom 까지만 돌면 되는거였다. 
         
         /*
         long lowerResult = 2;
@@ -82,6 +83,8 @@ public class Main{
         int count = Integer.parseInt(bf.readLine());
         for(int i=0;i<count;i++) {
             long quiz = Long.parseLong(bf.readLine());
+            // 왜 
+            // long quiz = (long) Integer.parseInt(bf.readLine()); 쓰면 NumberFormat 런타임 에러 뜸?????
             /*
             //에라토스테네스의 버려진 채 
             while(true) {
@@ -93,4 +96,5 @@ public class Main{
         }
         System.out.print(sb);
     }
+
 }
